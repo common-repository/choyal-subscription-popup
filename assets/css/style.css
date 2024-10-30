@@ -1,0 +1,164 @@
+.csp_model{
+	background: white;
+	border-top: 5px solid #222;
+	padding: 25px;
+	width: 550px;
+	position: fixed;
+	box-shadow: 0 0 10px #3e3c3c;
+    right: 0;
+	bottom: -400px;
+	z-index: 9999;
+}
+
+.csp_row  label.error{
+    background:rgb(243, 51, 51);
+    color:#fff;
+    position:absolute;
+    width: 235px;
+    text-align:center;
+    line-height:25px;
+    height:25px;
+	font-weight: normal;
+    font-size: 14px;
+	display: block;
+}
+.csp_row label.error:after{
+    content:"";
+    position:absolute;
+    left:5px;
+    top:-14px;
+    border:6px dotted transparent;
+    border-bottom: 10px dotted rgb(243, 51, 51);
+}
+
+.csp_input {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+	height: 40px;
+}
+
+.csp_btn, .csp_btn :hover{
+	border: 1px solid #333;
+    background: black;
+    color: white;
+    font-weight: normal;
+    text-transform: capitalize;
+    border-radius: 3px;
+    padding: 10px 15px;
+    width: 100%;
+    box-shadow: 0 0 5px grey;
+}
+
+.csp_btn img{ margin: -10px 5px; }
+
+.csp_row {
+    margin: 10px 0;
+	font-weight:normal;
+}
+
+.csp_row_input{
+	
+	height: 60px;
+	
+}
+
+.csp_loader{ display: none; }
+
+.csp_loader:hover {
+    margin: -10px 5px;
+    height: 30px;
+    width: 30px;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+    background: transparent;
+}
+
+.csp_close {
+    -webkit-border-radius: 0.33em;
+    -moz-border-radius: 0.33em;
+    -ms-border-radius: 0.33em;
+    -o-border-radius: 0.33em;
+    border-radius: 0.33em;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}
+
+.csp_close:before {
+    display: inline !important;
+    -webkit-border-radius: 0.33em;
+    -moz-border-radius: 0.33em;
+    -ms-border-radius: 0.33em;
+    -o-border-radius: 0.33em;
+    border-radius: 0.33em;
+    content: "\00D7";
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 25px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    color: #bbb;
+    background: transparent;
+}
+
+.csp_subscribe_btn{
+	
+	display:none;
+	position: fixed;
+	box-shadow: 0 0 10px #3e3c3c;
+    right: 0;
+	top: 200px;
+	background: white;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	padding:5px;
+	z-index: 9999;
+	
+}
+
+.csp_btn_img_icon {
+    width: 30px;
+}
+
+.csp_api_msg p{
+	
+    padding: 5px 10px;
+	color: white;
+    font-size: 14px;
+    border-top: 2px solid black;
+	
+}
+
+.scp_half_row{
+	
+	width: 49.6%;
+    display: inline-block;
+	
+}
+
+.csp-popup-success-msg{
+	background: rgb(71, 167, 53);
+}
+
+.csp-popup-error-msg{
+
+    background: rgb(243, 51, 51);
+	
+}
+
+.csp_brand_icon{
+	
+	text-align:center;
+	
+}
+
+.csp_brand_icon a{
+	
+	font-size: 13px;
+    font-family: monospace;
+	
+}
